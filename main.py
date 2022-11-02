@@ -4,9 +4,6 @@ import time
 from pathlib import Path
 from directoryList import *
 
-# Get the path for the Downloads directory.
-downloads = str(Path.home()) + "/Downloads"
-
 # Check for changes in Downloads directory.
 while True:
     NumberOfFiles=len(os.listdir(downloads))
