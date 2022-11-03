@@ -6,3 +6,4 @@ home = str(Path.home())
 # shortcut-name = "path/to/directory"
 
 downloads = home + "/Downloads"
+documents = home + "/Documents"
